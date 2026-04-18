@@ -1,1 +1,26 @@
-.o tcpserverTest1 tcpserverMultithread tcpserverEpoll nohup.out*.log
+#编译产物
+*.o
+*.a
+*.so
+*out
+tcpserver*
+#可执行文件
+*.exe
+*.bin
+#日志文件
+*.log
+nohup.out*
+server.log
+client.log
+#临时文件
+*.tmp
+*~
+*.swp
+*swo
+#IDE/编译器配置
+.vscode/
+.idea/
+*.code-workspace
+#系统文件
+.DS_Store
+Thumbs.db
